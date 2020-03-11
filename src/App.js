@@ -1,5 +1,11 @@
 import React from "react";
+
+//ReactStrap components
 import { Navbar, NavbarBrand } from "reactstrap";
+
+//Project Components
+import Menu from "./Components/Menu/Menu";
+
 import "./App.css";
 
 function App() {
@@ -10,6 +16,7 @@ function App() {
           <NavbarBrand href="/">Ristoront Confusion</NavbarBrand>
         </div>
       </Navbar>
+      <Menu />
     </div>
   );
 }
